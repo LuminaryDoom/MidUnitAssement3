@@ -10,9 +10,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         add();
+        subtract();
     }
 
     public int add() {
         return 1 + 2;
     }
+
+    public int subtract() {
+        return 1 - 2;
+    }
+
 }
